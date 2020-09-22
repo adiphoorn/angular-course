@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'website';
+  title = 'My Website';
+
+ // links=[ 
+ //  { path: '/home', icon: 'home', title: 'Home'},
+ //   { path: '/courses', icon: 'view_list', title: 'Courses'},
+ //   { path: '**', redirectTo: '/home'}
+ // ];
+
+  constructor(){
+    
+  }
+ 
+
 }

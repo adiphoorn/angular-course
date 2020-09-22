@@ -1,0 +1,32 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Angular 9 Fundamentals",
+      "description": "Learn the fundamentals of Angular 9",
+      "percentComplete": 26,
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "title": "Angular 10",
+      "description": "loves",
+      "percentComplete": 65,
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "title": "Html5 ",
+      "description": "html with css",
+      "percentComplete": 41,
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "title": "oke dan",
+      "description": "omschrijving bijwerken",
+      "percentComplete": 48,
+      "favorite": true
+    }
+  ]
+}
