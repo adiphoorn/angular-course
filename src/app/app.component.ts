@@ -11,6 +11,7 @@ export class AppComponent {
   links=[ 
    { path: '/home', icon: 'home', title: 'Home'},
     { path: '/courses', icon: 'view_list', title: 'Courses'},
+    { path: '/colors', icon: 'favorite' , title: "Colors"},
    { path: '**', redirectTo: '/home'}
   ];
 
