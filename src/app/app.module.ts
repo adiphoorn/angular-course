@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CourseDetailsComponent } from './components/course-details/course-details.component';
 import { CourseListComponent } from './components/course-list/course-list.component';
 import { LessonListComponent } from './components/lesson-list/lesson-list.component';
+import { ColorsComponent } from './components/colors/colors.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { LessonListComponent } from './components/lesson-list/lesson-list.compon
     CourseDetailsComponent,
     CourseListComponent,
     LessonListComponent,
+    ColorsComponent,
     
   ],
   imports: [

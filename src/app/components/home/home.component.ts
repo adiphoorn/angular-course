@@ -10,8 +10,7 @@ import { LessonsService } from 'src/app/shared/services/lessons.service';
 export class HomeComponent implements OnInit {
 
   title: string = 'Course content';
-  themeColor = '#3F51B5';
-  backgroundColor = '#FF4081';
+ 
   currentLesson = "";
   lessons = null;
 
@@ -23,12 +22,7 @@ export class HomeComponent implements OnInit {
    this.lessons = this.lessonsService.all();
   }
 
-  updateColor(){
-
-   console.log("the most beautiful color of the world is " + this.themeColor);
-   this.themeColor = 'salmon';
-
-  }
+ 
 
   selectLesson(lesson){
     console.log('clicked lesson = ' , lesson.title);

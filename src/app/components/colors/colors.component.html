@@ -1,0 +1,27 @@
+<div [style.backgroundColor]= "backgroundColor">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                {{title}}
+            </mat-card-title>
+        </mat-card-header>
+        <mat-card-content >
+            {{ themeColor }}
+            <hr>
+    
+            <span [style.color]="themeColor">Some colored text</span>
+           
+            <hr>
+                <input name="themeColor" [(ngModel)]="themeColor" type="text">
+                
+            <hr>
+            
+           <!--<pre>{{ courseLessons | json}}</pre> dit is een manier om te debuggen -->
+          <button mat-raised-button color="primary" (mouseenter)="updateColor()">Update</button>
+          <hr>
+          <span [style.backgroundColor]= "backgroundColor">kies achtergrondkleur</span>
+          <hr>
+          <input name="backgroundColor" [(ngModel)]="backgroundColor" type="text">
+    
+        </mat-card-content>
+    </mat-card>

@@ -17,9 +17,17 @@
 </mat-toolbar>
 
 <mat-sidenav-container>
-    <mat-sidenav-container #sidenav mode="side" opened class="app-sidenav">
+    <mat-sidenav #sidenav mode="side" opened class="app-sidenav">
+        <nav>
+          <a mat-button class="nav-link"
+          *ngFor="let link of links"
+          [routerLink]="link.path">
+           <mat-icon>{{link.icon}}</mat-icon>
+           {{link.title}}
+         </a>
+        </nav>
 
-    </mat-sidenav-container>
+    </mat-sidenav>
 
     <div class="container">
     
