@@ -8,8 +8,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Start development server and application
 
-Run `npn run server:all`. 
-Because i used an JSON file that is loading from server. 
+Run `npm run server:all`. 
+Always run this to use the application. It start first the server and then the application.
 
 ## Code scaffolding
 
